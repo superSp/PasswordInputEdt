@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<declare-styleable name="PasswordInputEdt">
+
+    <attr name="isPwd" format="boolean" />
+    <attr name="autoCloseKeyBoard" format="boolean" />
+    <attr name="isNumber" format="boolean" />
+    <attr name="widthSpace" format="dimension" />
+    <attr name="heightSpace" format="dimension" />
+    <attr name="rectStroke" format="dimension" />
+    <attr name="txtSize" format="dimension" />
+    <attr name="circleRadius" format="dimension" />
+    <attr name="bgFill" format="boolean" />
+    <attr name="numLength" format="integer" />
+    <attr name="textColor" format="color" />
+    <attr name="rectNormalColor" format="color" />
+    <attr name="rectChooseColor" format="color" />
+    <attr name="pwdType" format="enum" >
+        <enum name="CIRCLE" value="0"/>
+        <enum name="XINGHAO" value="1"/>
+    </attr>
+
+</declare-styleable>
+</resources>
