@@ -192,6 +192,17 @@ public class PasswordInputEdt extends android.support.v7.widget.AppCompatEditTex
     public void setTextColor(int textColor) {
         this.textColor = textColor;
     }
+    public void clearLastOne(){
+        if (text.length()==0){
+            return;
+        }
+        this.text = this.text.substring(0, this.text.length() - 1);
+        this.invalidate();
+    }
+    public void clearAll(){
+        this.text = "";
+        this.invalidate();
+    }
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
