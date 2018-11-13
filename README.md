@@ -1,8 +1,8 @@
-#效果图
+# 效果图
 
 ![ScreenGif.gif](https://github.com/superSp/PasswordInputEdt/blob/master/PasswordInputEdt.gif)
 
-#使用
+# 使用
 在根目录的build.gradle中添加
 ````
 allprojects {
@@ -33,7 +33,7 @@ edt.setOnInputOverListener(new PasswordInputEdt.onInputOverListener() {
       }
 });
 ````
-#可以自定义的属性(xml和代码都可以设置)
+# 可以自定义的属性(xml和代码都可以设置)
 ````
     <attr name="numLength" format="integer" />              <!-- 输入位数的长度-->
     <attr name="isPwd" format="boolean" />                  <!-- 是否显示为密码-->
@@ -52,6 +52,10 @@ edt.setOnInputOverListener(new PasswordInputEdt.onInputOverListener() {
         <enum name="CIRCLE" value="0"/>
         <enum name="XINGHAO" value="1"/>
     </attr>
+    
+    clearLastOne()					    <!--删除最后一个字符方法-->
+    clearAll()					            <!--清空内容方法-->
 ````
+
 [简书地址](http://www.jianshu.com/p/a8cfe904f55a)
               
