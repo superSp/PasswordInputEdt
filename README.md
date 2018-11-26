@@ -55,6 +55,7 @@ edt.setOnInputOverListener(new PasswordInputEdt.onInputOverListener() {
     
     clearLastOne()					    <!--删除最后一个字符方法-->
     clearAll()					            <!--清空内容方法-->
+    getText()						    <!--获取文本内容-->
 ````
 
 [简书地址](http://www.jianshu.com/p/a8cfe904f55a)
