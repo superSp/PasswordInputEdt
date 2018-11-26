@@ -203,6 +203,9 @@ public class PasswordInputEdt extends android.support.v7.widget.AppCompatEditTex
         this.text = "";
         this.invalidate();
     }
+    public String getText() {
+        return text;
+    }
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
